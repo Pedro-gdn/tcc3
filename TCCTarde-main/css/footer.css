@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.footer
+{
+    max-width: 600px;
+    margin: auto;
+}
+
+.contacUs .ti{
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+}
+
+.contacUs .ti h2{
+    
+    font-weight: 500;
+}
+.contacUs .ti p{
+    
+    font-weight: 500;
+}
+
+.form{
+    grid-area: form;
+}
+
+.map{
+    grid-area: map;
+}
+
+
+
+.box{
+    position: relative;
+    margin-top: 20px;
+}
+
+.contact h3{
+    color: #050505;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+/* form */
+.forBox{
+    position: relative;
+    width: 100%;
+}
+
+.forBox .row50{
+    display: flex;
+    
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.forBox .row100 .inputBox{
+    width: 100%;
+}
+.inputBox span{
+    color: #bd856c;
+    font-weight: 500; 
+}
+.inputBox input{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1.5px solid #000;
+}
+.inputBox textarea{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1.5px solid #000;
+    resize: none;
+    min-height: 110px;
+    
+}
+.inputBoxbu button{
+    width: 150px;
+    height: 40px;
+    float: right;
+    background-color: #051822;
+    color: #fff;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.footer {
+    padding-top: 4rem;
+}
